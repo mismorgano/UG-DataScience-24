@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "datascience"
+version = "0.1.0"
+description = "An Introduction to Data Science, assigments and projects."
+authors = ["mismorgano <mismorgano@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
