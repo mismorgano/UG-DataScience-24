@@ -86,14 +86,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.24.0",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
-        "R",
-        "methods"
+        "R"
       ],
-      "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
+      "Hash": "6b567375113ceb7d9f800de4dd42218e"
     },
     "fansi": {
       "Package": "fansi",
@@ -166,13 +165,13 @@
     },
     "pbdZMQ": {
       "Package": "pbdZMQ",
-      "Version": "0.3-12",
+      "Version": "0.3-13",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "e1565c55ea0d170e8d6400e72eff8112"
+      "Hash": "f7d3cf3925293948336b50ec63705df7"
     },
     "pillar": {
       "Package": "pillar",

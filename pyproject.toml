@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "An Introduction to Data Science, assigments and projects."
 authors = ["mismorgano <mismorgano@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
