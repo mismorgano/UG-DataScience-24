@@ -22,3 +22,19 @@
   + Para elegir el mejor $k$ una técnica famosa es la *Elbow Method*. Hacer una búsqueda de referencias que explican la técnica. 
     Implementar la técnica para la gráfica del inciso anterior.
 ]
+
+*Solución:*
+
+Para los primeros tres incisos ver el código adjunto.
+
+#enum.item(4)[
+  El *Elbow Method* es una heurística usada en _clustering_ para determinar el numero de clusters en un conjunto de datos.
+  La idea es muy sencilla, dada una medición en función del numero de clusters (error, precisión, etc) la podemos graficar
+  y entonces el codo de la gráfica  nos dirá el numero de clusters, pues un numero mayor de clusters no mejora substancialmente 
+  el modelo.
+
+  También lo podemos interpretar desde e punto de vista del calculo como un "estancamiento" en la pendiente de la grafica, 
+  lo cual nos dice que su razón de cambio es poca.
+  #footnote()[La implementación esta en el código adjunto.]
+]
+
