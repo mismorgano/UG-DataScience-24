@@ -1,5 +1,5 @@
 
-// #import "@preview/ctheorems:1.1.2": *
+// #import "@preview/ctheorems:1.1.3": *
 // #show: thmrules.with(qed-symbol: $square$)
 
 // #let exercise = thmbox("exercise", "Problema", base_level: 0, stroke: 1pt)
